@@ -1,0 +1,47 @@
+.cars {
+  padding: 3% 10%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  padding: 0 10%;
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+}
+
+.title {
+  /* background-image: url('../asset/title-background.svg'); */
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10%;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.btn {
+  z-index: 0;
+}
+
+.banner {
+  background-image: url('../asset/banner.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10%;
+}
